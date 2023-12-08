@@ -1,0 +1,96 @@
+@font-face {
+    font-family: ABeeZee;
+    src: url(ABeeZee-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: ABeeZee, "Comic Sans MS", fantasy;
+}
+
+.buttons-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.buttons-header {
+    background-color: black;
+    color: white;
+
+    font-size: 2em;
+    padding: 1em;
+}
+
+.buttons-grid > button {
+    flex: 0 0 calc(25% - 1em);
+    margin: 0.5em;
+}
+
+.button1 {
+    background-color: #017187;
+    color: white;
+    border: 0;
+    padding: 20px 40px;
+    font-size: 20px;
+    line-height: 140%;
+    border-radius: 8px;
+
+}
+
+.button1-alt {
+    background-color: white;
+    color: #017187;
+    border: 2px solid #017187;
+}
+
+.button1:hover {
+    background-color: #67AAB7;
+}
+
+.button1-alt:hover {
+    border: 2px solid #67AAB7;
+    background-color: white;
+    color: #67AAB7;
+}
+
+.button1:disabled {
+    background-color: #E9E9E9;
+    color: #A9A9A9;
+    border: 2px solid #CACACA;
+}
+
+.button1-alt:disabled {
+    background-color: white;
+    color: #CACACA;
+    border: 2px solid #CACACA;
+}
+
+
+.button2 {
+    width: 152px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 100px;
+    padding: 13px 25px 15px;
+    color: white;
+    background-color: #F43F5E;
+    border: 1px solid;
+}
+
+.button2-alt {
+    background-color: #0EA5E9;
+}
+
+.button2:disabled {
+    background-color: #E5E7EB;
+    color: #9CA3AF;
+    border-color: #E5E7EB;
+
+}
+
+button {
+    font-family: inherit;
+
+}
