@@ -15,6 +15,15 @@ body {
     width: 50%;
 }
 
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: not-allowed;
+}
+
 .buttons-header {
     background-color: black;
     color: white;
@@ -79,8 +88,18 @@ body {
     border: 1px solid;
 }
 
+.button2:hover {
+    background-color: #9F1239;
+
+}
+
+
 .button2-alt {
     background-color: #0EA5E9;
+}
+
+.button2-alt:hover {
+    background-color: #075985;
 }
 
 .button2:disabled {
@@ -90,7 +109,44 @@ body {
 
 }
 
-button {
-    font-family: inherit;
+.button3 {
+    width: 152px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 100px;
+    padding: 13px 25px 15px;
+    color: #F43F5E;
+    background-color: white;
+    border: 2px solid;
+}
+
+.button3:hover {
+    background-color: white;
+    outline: 4px solid #FDA4AF;
+    color: #9F1239;
+    border-color: #9F1239;
 
 }
+
+
+.button3-alt {
+    background-color: white;
+    color: #0EA5E9;
+}
+
+.button3-alt:hover {
+    background-color: white;
+    outline: 4px solid #7DD3FC;
+    color: #075985;
+    border-color: #075985;
+}
+
+.button3:disabled {
+    background-color: white;
+    color: #E5E7EB;
+    border-color: #E5E7EB;
+    outline: none;
+
+}
+
+
